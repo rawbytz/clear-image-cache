@@ -1,6 +1,6 @@
 # Clear WorkFlowy Image Cache
 - Use this utility if some images are not displaying properly in WorkFlowy.
-- It clears image cache from your client's local storage.
+- This clears image cache from your client's local storage.
 - After installing to your bookmarks bar, click the bookmarklet while inside WorkFlowy.
 - Press OK at the prompt, and then reload WorkFlowy.
 
