@@ -1,7 +1,7 @@
-(function clearImageCache_0_1() {
+(function clearImageCache_0_2() {
   const imageKeys = [];
   for (var i = 0; i < localStorage.length; i++) {
-    if (localStorage.key(i).indexOf("signed_url./file-proxy/") === 0) {
+    if (localStorage.key(i).indexOf("signed_url./") === 0) {
       imageKeys.push(localStorage.key(i))
     }
   }
