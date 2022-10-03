@@ -7,8 +7,7 @@
 
 ## Installation: Drag this link to your bookmarks bar:
 
- <a href="javascript:(function clearImageCache_0_1(){const imageKeys=[];for(var i=0;i&lt;localStorage.length;i++){if(localStorage.key(i).indexOf(&quot;signed_url./file-proxy/&quot;)===0){imageKeys.push(localStorage.key(i))}}if(confirm(`Clear WorkFlowy image cache from local storage? [${imageKeys.length}]`)){imageKeys.forEach(key=&gt;localStorage.removeItem(key))}})();">clearImageCache</a>
-
+<a href="javascript:(function clearImageCache_0_2(){const imageKeys=[];for(var i=0;i&lt;localStorage.length;i++){if(localStorage.key(i).indexOf(&quot;signed_url./&quot;)===0){imageKeys.push(localStorage.key(i))}}if(confirm(`Clear WorkFlowy image cache from local storage? [${imageKeys.length}]`)){imageKeys.forEach(key=&gt;localStorage.removeItem(key))}})();">clearImageCache</a>
 
 ## Links:
 - [Source code](https://github.com/rawbytz/clear-image-cache/blob/master/clearImageCache.js)
@@ -16,10 +15,5 @@
 
 
 ## Version Notes:
+- v0.2 (2022-10-03): Support new localStorage key format
 - v0.1 (2022-08-09): Initial release
-
-<!-- 
-LINKS REFERENCING THIS
-
-Move xtras.text info here if necessary
- -->
